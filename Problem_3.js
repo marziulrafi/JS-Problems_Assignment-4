@@ -28,4 +28,4 @@ function electionResult(votes) {
 
 let test = ["banana", "banana", "age e valo chilam" , "no"]
 let result = electionResult(test)
-console.log(result);
+console.log(result)

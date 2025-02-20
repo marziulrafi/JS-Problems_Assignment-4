@@ -2,9 +2,9 @@ function cashOut(money) {
     let charge = (money*1.75)/100
 
     if(typeof(money) !== 'number' || money < 0){
-        return 'Invalid';
+        return 'Invalid'
     } else {
-        return charge;
+        return charge
     }
 }
 
