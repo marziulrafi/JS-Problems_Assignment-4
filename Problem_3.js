@@ -25,4 +25,7 @@ function electionResult(votes) {
     }
 }
 
-console.log(electionResult(["mango", "BananA", "na vote", "na vote"]));
+
+let testArr = ["mango", "BananA", "na vote", "na vote"]
+let test = electionResult(testArr)
+console.log(test);
